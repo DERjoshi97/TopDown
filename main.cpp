@@ -12,6 +12,7 @@ int main()
 
     // Now that the window (and graphics device) is initialized, load textures
     //Texture2D map = LoadTexture("world/worlds/Map.png");
+    world myWorld;
 
     SetTargetFPS(60);
 
@@ -22,7 +23,6 @@ int main()
         ClearBackground(WHITE);
 
         //DrawTextureEx(map, mapPos, 0.f, 4.0, WHITE);
-        world myWorld;
         myWorld.drawWorld();
 
         EndDrawing();
