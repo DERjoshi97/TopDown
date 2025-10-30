@@ -1,5 +1,6 @@
 #include "BaseCharacter.hpp"
 #include "raymath.h"
+#include "raylib.h"
 
 BaseCharacter::BaseCharacter()
 {

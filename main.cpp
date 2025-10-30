@@ -1,5 +1,6 @@
 #include "raylib.h"
 #include "world.hpp"
+#include "Character.hpp"
 
 int main()
 {
@@ -13,6 +14,8 @@ int main()
     // Now that the window (and graphics device) is initialized, load textures
     //Texture2D map = LoadTexture("world/worlds/Map.png");
     world myWorld;
+
+    Character myCharacter(windowWidth, windowHeight);
 
     SetTargetFPS(60);
 
